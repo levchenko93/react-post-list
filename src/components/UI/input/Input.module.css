@@ -1,0 +1,15 @@
+.input {
+   padding: 15px;
+   width: 650px;
+   font-size: 16px;
+   outline: none;
+   border-radius: 5px;
+   border: 2px solid teal;
+   color: teal;
+   margin-bottom: 3px;
+}
+
+.input::placeholder {
+   color: teal;
+   opacity: 0.7;
+}

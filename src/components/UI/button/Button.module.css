@@ -1,0 +1,22 @@
+.post__btn {
+   padding: 12px;
+   border-radius: 7px;
+   border: none;
+   font-size: 16px;
+   cursor: pointer;
+   background-color: teal;
+   color: #fff;
+   outline: none;
+   transition: color 0.3s ease-in, background 0.3s ease-in;
+}
+
+.post__btn:hover {
+   color: teal;
+   background: #fff;
+   border-color: teal;
+}
+
+.post__btn:active {
+   position: relative;
+   top: 1px;
+}

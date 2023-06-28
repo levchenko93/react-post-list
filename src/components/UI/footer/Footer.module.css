@@ -1,0 +1,32 @@
+.footer {
+   justify-content: space-between;
+   align-items: center;
+   height: 100px;
+   background-color: teal;
+   display: flex;
+}
+
+.footer h2 {
+   font-weight: bold;
+   margin-left: 10px;
+}
+
+.footer__link {
+   margin-right: 5px;
+}
+
+.footer__link_item {
+   text-decoration: none;
+   margin-right: 8px;
+   color: #fff;
+   font-size: 18px;
+}
+
+.footer__link_item:last-child {
+   margin-right: 80px;
+}
+
+.footer__link_item:hover {
+   color: yellow;
+   text-decoration-line: underline;
+}

@@ -1,0 +1,57 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   background-color: grey;
+   color: #fff;
+}
+
+.App,
+.About {
+   min-height: calc(100vh - 150px);
+   width: 800px;
+   margin: 0 auto;
+}
+
+.post {
+   display: flex;
+   justify-content: space-between;
+   border: 2px solid teal;
+   padding: 10px 8px;
+   align-items: center;
+   font-size: 18px;
+   margin-top: 10px;
+   word-break: break-all;
+}
+
+.post__text {
+   max-width: 670px;
+}
+
+.error-message {
+   text-align: center;
+   color: red;
+   margin-top: 20px;
+}
+
+.btn {
+   position: fixed;
+   bottom: 2px;
+   right: 2px;
+   height: 65px;
+   width: 65px;
+   border-radius: 50%;
+   border: none;
+   background: #fff;
+   cursor: pointer;
+   color: teal;
+   font-size: 16px;
+}
+
+.btn:hover {
+   opacity: 0.8;
+}

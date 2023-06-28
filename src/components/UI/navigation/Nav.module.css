@@ -1,0 +1,27 @@
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 50px;
+   background-color: teal;
+}
+
+.nav h2 {
+   font-weight: bold;
+   margin-left: 10px;
+}
+
+.nav__link {
+   margin-right: 5px;
+}
+
+.nav__link_item {
+   text-decoration: none;
+   margin-right: 8px;
+   color: #fff;
+   font-size: 18px;
+}
+
+.nav__link_item:hover {
+   opacity: 0.8;
+}
